@@ -10,7 +10,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (req, res) => {
     console.log('Hola ........');
-    res.send('Preparat per instalar amb docker\n');
+    res.send('Preparat..... per instalar amb docker\n');
 });
 
 app.listen(PORT, HOST);
